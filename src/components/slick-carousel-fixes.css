@@ -1,0 +1,30 @@
+/* slick-carousel-fixes.css */
+@font-face {
+  font-family: 'slick';
+  font-weight: normal;
+  font-style: normal;
+  src: url('~slick-carousel/slick/fonts/slick.eot');
+  src: url('~slick-carousel/slick/fonts/slick.eot?#iefix') format('embedded-opentype'),
+       url('~slick-carousel/slick/fonts/slick.woff') format('woff'),
+       url('~slick-carousel/slick/fonts/slick.ttf') format('truetype'),
+       url('~slick-carousel/slick/fonts/slick.svg#slick') format('svg');
+}
+
+/* Fix for slick slider arrows */
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:before {
+  content: '←';
+}
+
+.slick-next:before {
+  content: '→';
+}
